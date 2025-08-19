@@ -62,6 +62,7 @@ def get_dynamic_schedule():
     # 데이터 반환
     return {
         "schedule": schedule,
+        "team_emojis": TEAM_EMOJIS,
         "date": datetime.now().strftime("%Y년 %m월 %d일")
     }
 

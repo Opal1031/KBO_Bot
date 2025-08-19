@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-from datetime import datetime
 from KBO_crawler import get_dynamic_schedule
 
 # =================================================================================================================
@@ -10,7 +9,6 @@ def make_schedule_embed():
     data = get_dynamic_schedule()
     schedule = data["schedule"]
     current_date = data["date"]
-    from KBO_crawler import TEAM_EMOJIS
 
     embed = discord.Embed(
         title = "⚾ 오늘의 KBO 경기 일정",
@@ -29,8 +27,9 @@ def make_schedule_embed():
             team1 = game.get("team1", "")
             team2 = game.get("team2", "")
             stadium = game.get("stadium", "")
-            emoji1 = TEAM_EMOJIS.get(team1, "⚾")
-            emoji2 = TEAM_EMOJIS.get(team2, "⚾")
+            emoji1 = game.get("emoji1", "⚾")
+            emoji2 = game.get("emoji2", "⚾")
+
             schedule_text += f"@ {stadium} {time} | {emoji1} {team1} vs {team2} {emoji2}\n"
 
     # 임베드 필드 추가
