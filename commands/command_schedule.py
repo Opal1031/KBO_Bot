@@ -35,8 +35,8 @@ def make_schedule_embed():
 
     # 임베드 필드 추가
     now = discord.utils.utcnow().strftime('%Y-%m-%d %H:%M:%S')
-    embed.add_field(name = "경기 일정", value = schedule_text, inline = False)
-    embed.set_footer(text = f"KBO 공식 홈페이지 | 생성: {now}")
+    embed.add_field(name = "📊 경기 일정", value = schedule_text, inline = False)
+    embed.set_footer(text = f"📊 KBO 공식 홈페이지 | 생성: {now}")
 
     return embed
 
