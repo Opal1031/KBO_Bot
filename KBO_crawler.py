@@ -50,7 +50,9 @@ def get_dynamic_schedule():
                     "time" : time_,
                     "team1" : away_team,
                     "team2" : home_team,
-                    "stadium" : stadium
+                    "stadium" : stadium,
+                    "emoji1": TEAM_EMOJIS.get(away_team, "⚾"),
+                    "emoji2": TEAM_EMOJIS.get(home_team, "⚾")
                 })
 
     # 예외 처리
