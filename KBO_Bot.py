@@ -23,11 +23,12 @@ async def on_ready():
         synced = await bot.tree.sync()
         print(f"슬래시 커맨드 {len(synced)}개 동기화됨")
         print("=====================================")
+
     except Exception as e:
         print(f"슬래시 커맨드 동기화 실패: {e}")
         print("=====================================")
 
-    print("KBO_Bot#5653 RUNNING!!")
+    print("KBO_Bot RUNNING!!")
 
 # 메인 함수
 async def main():

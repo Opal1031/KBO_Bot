@@ -22,6 +22,7 @@ def make_schedule_embed():
 
     else:
         schedule_text = ""
+
         for game in schedule:
             time = game.get("time", "")
             team1 = game.get("team1", "")
