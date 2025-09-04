@@ -23,7 +23,18 @@
 
 ---
 
-## 시작 가이드 및 요구 사항 | Getting start & Requirements
+## 시작 가이드 | Getting start
+
+### 기능 | Function
+
+|명령어|내용|결과|
+|:--:|:--:|:--:|
+|**/테스트**|봇의 동작 상태를 확인하기 위한 명령어|테스트 완료!|
+|**/순위**|현재 KBO 리그 순위 출력을 위한 명령어|🏆 KBO 리그 순위|
+|**/일정**|오늘의 KBO 경기 일정을 확인하는 명령어|⚾ 오늘의 KBO 경기 일정|
+|**/결과**|오늘의 KBO 경기 결과를 확인하는 명령어|⚾ 오늘의 KBO 경기 결과|
+
+### 요구 사항 | Requirements
 
 **단순 사용 목적**  
 
@@ -51,6 +62,24 @@ $ pip install selenium
 ![VSC](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+
+---
+
+## 개발 일지 | Dev Log
+
+### Version Table
+
+|Version|Description|
+|:--:|:--:|
+|v1.0|KBO_Bot 생성 & 테스트 명령어 구현 및 기본 정보 크롤링|
+|v1.1|순위 & 일정 명령어 구현|
+|v1.2|결과 명령어 구현|
+
+### Upcoming Versions
+
+|Version|Description|
+|:--:|:--:|
+|v1.3|결과 명령어 최적화|
 
 ---
 
