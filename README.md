@@ -59,9 +59,9 @@ $ pip install selenium
 
 ## 기술 스택 | Tech Stack
 
-![VSC](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+<a href = "https://skillicons.dev">
+    <img src = "https://skillicons.dev/icons?i=vscode,py,bots,discord"/>
+</a>
 
 ---
 
